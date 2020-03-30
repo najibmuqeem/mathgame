@@ -3,9 +3,9 @@ require './question'
 
 p1 = Player.new(1)
 p2 = Player.new(2)
+q = Question.new(20, 2)
 
 puts "Welcome to the most complicated math competition you will ever face!"
-q = Question.new(20, 2)
 
 loop do
   player = q.player
